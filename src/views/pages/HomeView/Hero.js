@@ -90,7 +90,7 @@ function Hero({ className, ...rest }) {
               <div className={classes.image}>
                 <img
                   alt="Presentation"
-                  src="/static/home/Homepage.png"
+                  src="/static/home/HomepageA.png"
                 />
               </div>
             </Box>
