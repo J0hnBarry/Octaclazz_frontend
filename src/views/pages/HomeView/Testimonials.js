@@ -51,7 +51,7 @@ function Testimonials({ className, ...rest }) {
               variant="body1"
               color="textPrimary"
             >
-              John Dah!!! @ Creator
+              John Dah @ Creator
               <Typography
                 color="textSecondary"
                 display="inline"
