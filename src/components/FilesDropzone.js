@@ -60,14 +60,14 @@ const useStyles = makeStyles((theme) => ({
 function FilesDropzone({ className, onchange, ...rest }) {
   const classes = useStyles();
   const [files, setFiles] = useState([]);
-  
-useEffect(() => {
-  onchange(files);
-}, [files])
+
+  useEffect(() => {
+    onchange(files);
+  }, [files, onchange]);
 
   const handleDrop = useCallback((acceptedFiles) => {
-    setFiles((prevFiles) =>[...prevFiles].concat(acceptedFiles));
-    
+    setFiles((prevFiles) => [...prevFiles].concat(acceptedFiles));
+
   }, []);
 
   const handleRemoveAll = () => {
@@ -144,8 +144,8 @@ useEffect(() => {
             <Button
               onClick={handleRemoveAll}
               size="small"
-               color="secondary"
-               variant="contained"
+              color="secondary"
+              variant="contained"
             >
               Remove all
             </Button>

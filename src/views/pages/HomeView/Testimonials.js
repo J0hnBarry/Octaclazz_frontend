@@ -37,7 +37,7 @@ function Testimonials({ className, ...rest }) {
         >
           &quot;A Gamified Learning Environment.
           <br />
-          Powered by Octalysis.&quot;
+          Powered by Octalysis!&quot;
         </Typography>
         <Box
           mt={6}
