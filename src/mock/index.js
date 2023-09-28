@@ -1,0 +1,11 @@
+import './accountMock';
+import './searchMock';
+import './notificationsMock';
+import './managementMock';
+import './chatMock';
+import './mailMock';
+import './coursesMock';
+import './courseDataMock';
+import './assessmentsMock';
+import './walletMock';
+import './UserListMock';
